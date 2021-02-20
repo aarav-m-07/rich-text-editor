@@ -1,30 +1,3 @@
-.chess_board{
-  display:flex;
-  flex-direction:column;
-  height:100vh;
-  align-items:center;
-  width:100vw;
-  background: lightgray;
-}
-
-.chess_row{
-  display:flex;
-  flex-wrap: nowrap;
-  flex-direction:row;
-  flex-shrink:0;
-  justify-content:center;
-}
-.chess_cell{
-   flex-basis:5rem;
-   height:5rem;
-   flex-shrink:0;
-   color: red;
-   background: black;
-}
-.chess_cell.odd:nth-of-type(2n),.chess_cell.even:nth-of-type(2n+1)
-{
-    background: white;
-}
 
 .margin-Right{
   margin-right: 10px;
